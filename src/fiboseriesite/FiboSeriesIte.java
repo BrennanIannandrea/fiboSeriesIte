@@ -2,7 +2,8 @@
 package fiboseriesite;
 import java.util.Scanner;
 public class FiboSeriesIte {
-    public static void main(String[] args) {Scanner a = new Scanner(System.in);
+    public static void main(String[] args) {
+        Scanner a = new Scanner(System.in);
         System.out.println("Insert number of values:");
         long b = a.nextLong();
         long tim = System.currentTimeMillis();
@@ -21,7 +22,7 @@ public class FiboSeriesIte {
         long sTim = System.currentTimeMillis();
         long eTime = sTim - tim;
         System.out.print(eTime);
-        System.out.println(" Millioseconds");
+        System.out.println(" Milliseconds");
     }
     
 }
