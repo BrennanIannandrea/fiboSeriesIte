@@ -3,7 +3,7 @@ package fiboseriesite;
 import java.util.Scanner;
 public class FiboSeriesIte {
     public static void main(String[] args) {Scanner a = new Scanner(System.in);
-        System.out.println("Insert max value:");
+        System.out.println("Insert number of values:");
         long b = a.nextLong();
         long tim = System.currentTimeMillis();
         long numberOne = 1;
