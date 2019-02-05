@@ -5,6 +5,7 @@ public class FiboSeriesIte {
     public static void main(String[] args) {Scanner a = new Scanner(System.in);
         System.out.println("Insert max value:");
         long b = a.nextLong();
+        long tim = System.currentTimeMillis();
         long numberOne = 1;
         long  numberTwo = 1;
         System.out.println(numberOne);
@@ -17,6 +18,10 @@ public class FiboSeriesIte {
         System.out.println(numberTwo);
         }
         }
+        long sTim = System.currentTimeMillis();
+        long eTime = sTim - tim;
+        System.out.print(eTime);
+        System.out.println(" Millioseconds");
     }
     
 }
